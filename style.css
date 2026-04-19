@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    background-color: #a3b3c4;
+    height: 150px;
+}
+
+#meio{
+    background-color: rgba(163, 179, 196, 0.7);
+    height: 700px;
+    border: 20px solid #a3b3c4;
+}
+
+#caixasprojetos1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -650px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#caixasprojetos2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+#caixaprojeto1{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 37, 72, 0.4);
+    border-radius: 20px;
+}
+
+#caixaprojeto2{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 37, 72, 0.4);
+    border-radius: 20px;
+}
+
+#caixaprojeto3{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 37, 72, 0.4);
+    border-radius: 20px;
+}
+
+#caixaprojeto4{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 37, 72, 0.4);
+    border-radius: 20px;
+}
+
+#caixasiniciais{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#caixasobremim{
+    width: 600px;
+    height: 655px;
+    background-color: rgba(0, 37, 72, 0.4);
+    border-radius: 20px;
+}
+
+#rodapep{
+    margin-top: 230px;
+    position: fixed;
+    background-color: #002548;
+    width: 1920px;
+    height: 55px;
+}
+
+#rodape{
+    position: fixed;
+    background-color: #002548;
+    width: 1920px;
+    height: 55px;
+}
+
+.foto{
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 25px;
+    left: 660px;
+}
+
+.nomegrande{
+    font-size: 34px;
+    color: #002548;
+    position: absolute;
+    top: 20px;
+    left: 800px;
+}
+
+.frasepequena{
+    color: #ffffff;
+    position: absolute;
+    top: 65px;
+    left: 800px;
+}
+
+.links{
+    position: absolute;
+    top: 110px;
+    left: 800px;
+    font-size: 24px;
+    display: flex;
+    gap: 59px;
+}
+
+.link{
+    text-decoration: none;
+    color: #a3b3c4;
+    font-size: 30px;
+    background-color: #002548;
+    border: 4px solid #002548;
+    border-radius: 10px;
+}
+
+.linhamenue{
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    width: 8px;
+    height: 130px;
+    background-color: #002548;
+    border-radius: 10px;
+}
+
+.linhamenud{
+    position: absolute;
+    top: 20px;
+    right: 600px;
+    width: 8px;
+    height: 130px;
+    background-color: #002548;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: #002548;
+    background: #ffffff;
+    border: 4px solid #ffffff;
+}
+
+/*============================================== SOBRE ==============================================*/
+
+.sobre{
+    position: relative;
+    padding-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #002548;
+    font-size: 30px;
+}
+
+.sobretexto{
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 27px;
+    text-align: justify;
+}
+
+/*============================================== PROJETOS ==============================================*/
+
+.titleprojeto{
+    color:#002548;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.textoprojeto{
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: justify;
+}
+
+.rodapetexto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding-top: 17px;
+}
+
+/*============================================== CONTATO ==============================================*/
+
+.contatos{
+    position: relative;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #002548;
+    font-size: 30px;
+}
+
+.dadospessoais{
+    position: absolute;
+    padding-left: 30px;
+    padding-right: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: justify;
+}
